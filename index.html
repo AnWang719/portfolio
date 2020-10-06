@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>An Wang Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+<body>
+  <!-- Canvas Section -->
+  <div class="canvas"><canvas id="c"></canvas></div>
+  <div class="intro">
+    <h1>AN WANG</h1>
+    <p>I'm a self motivated <span>Front-end Web Developer</span>. <br>Creating awesome and effective visual identities for companies of all sizes around the globe is my mission. I love structure and order and I also stand for quality.</p>
+    <p>
+      <a href="https://www.facebook.com/wang.an.56/"><i class="fab fa-facebook-square fa-lg"></i></a>
+      <a href="https://www.linkedin.com/in/an-wang-b83893193/"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="https://github.com/AnWang719"><i class="fab fa-github fa-lg"></i></a>
+      <a href="mailto:anwang719@gmail.com?"><i class="fas fa-at fa-lg"></i></a>
+    </p>
+  </div>
+
+  <!-- Navbar toggle -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-black" id="nav-wrap" style="display: block;" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar content -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+      <ul id="nav" class="nav  navbar-nav">
+        <li class="nav-item"><a class="nav-link"  href="#scroll-profile"  onclick="myFunction1()">Profile</a></li>
+        <li class="nav-item"><a class="nav-link" href="#scroll-experience" onclick="myFunction2()">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#scroll-abilities" onclick="myFunction3()">Abilities</a></li>
+        <li class="nav-item"><a class="nav-link" href="#scroll-projects" onclick="myFunction4()">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+    <!-- Profile content -->
+    <div class="profile frame" id="scroll-profile">
+      <div class="container "> 
+        <div class="row  ">
+          <div class="col-sm-3  sub-row" style="text-align: center;"> <img class="responsive" src="images/profile.jpg" style="width: 150px;" class="ml-3" alt="..."></div>
+           <div class=" col-sm-9  sub-row text-align">
+            <div class="about">
+              <h3 class="mt-0 mb-1">About Me</h3>
+              <p class="text">I studied my bachelor in IT infomation management in 2009, the year websites become accessible to all, and it has plant the seed in the bottom of my heart back then. <br>However, I missed my opportunity to develope it as my life career until 2019, I came to New Zealand to continue my study and made the focus on web development. <br>During my study, I have learned the basic web languages ( HTML, CSS, JS, php )and object oriented concepts ( Java ), also some basic database managements ( MySQL ). <br>After my graduation, I managed to obtain an internship in a local web development company to develop front end website by writing cutsomize html, css and js code, and using development framework like bootstrap and silverstrap when required. 
+                </p>
+            </div>
+            <div class="details">
+              <h3 class="mt-0 mb-1">Details</h3>
+              <p>
+                <span>An Wang</span><br>
+                <span ><a href="mailto:anwang719@gmail.com?">anwang719@gmail.com</a></span><br>
+                <span>+642102232129</span><br>
+                <span>Napier, New Zealand</span>
+              </p>
+            </div>
+            <div class="download-button"><a href="cv/anwang-cv.pdf" class="button" download ><i class="fa fa-download"></i>Download Resume</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Experience content -->
+    <div class="experience frame" id="scroll-experience">
+      <div class="container heading flex-column-reverse">
+        <div class="row ">
+          <div class="col-md-3 sub-row">
+            <h3>Educations</h3>
+          </div>
+          <div class="col-md-9 sub-row">
+            <div class="row flex-row-reverse">
+              <div class=" col-md-4"><img src="images/EIT-logo.png"></div>
+              <div class="col-md-8">
+                <h3>Eastern Institute of Technology</h3>
+                <p>Graduate Diploma in IT • 2019-2020</p>
+                <p>High distinction (85%) in web development major</p>
+                <div class="sub-p">
+                <p>Relevant Subjects:</p>
+                  <ul>
+                    <li>Web Application Programming</li>
+                    <li>Advanced Internet and Web Page Development</li>
+                    <li>Cybersecurity</li>
+                    <li>Software Testing</li>
+                    <li>E-Business Strategies</li>
+                  </ul>
+                  </div>
+                <p>Other Subjects:</p>
+                  <ul>
+                    <li>Info Tech Management & Professionalism</li>
+                    <li>Project Management</li>
+                    <li>Machine and Artificial Intelligence</li>
+                  </ul>
+                <p class="location"><i class="fas fa-map-marker-alt"></i>Napier Hawke's Bay New Zealand</p>
+              </div>
+              <div class="col-md-4 sub-row"><img src="images/sd.jpeg"></div>
+              <div class="col-md-8 sub-row">
+                <h3>ShanDong University of Engineering and Vocational Technology</h3>
+                <p>Bachelor of Computer Information Management • 2009-2012</p>
+                 <div class="sub-p">
+                <p>Relevant Subjects:
+                <ul>
+                  <li>Dreamweaver</li>
+                  <li>Database Principles and Applications</li>
+                  <li>Data Structure</li>
+                  <li>Software Engineering</li>
+                  <li>Vb.net</li>
+                  <li>ASP</li>
+                  <li>Internet Marketing</li>
+                </ul></p>
+              </div>
+                <p>Other Subjects:</p>
+                <ul>
+                  <li>C Language</li>
+                  <li>Project Management</li>
+                  <li>Management Information System</li>
+                  <li>Multimedia Technology</li>
+                </ul>
+                 <p class="location"><i class="fas fa-map-marker-alt"></i>ShanDong Province, China</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </div>
+    <div class="container careers flex-column-reverse">
+      <div class="row ">
+        <div class="col-md-3">
+          <h3>Careers</h3>
+        </div>
+        <div class="col-md-9">
+          <div class="row flex-row-reverse">
+            <div class="col-md-4"><img src="images/webfox.png"></div>
+            <div class="col-md-8">
+              <h3>webfox</h3>
+              <p>Web Developer Intern • Aug 2020-Present</p>
+              <ul>
+                <li>Developing responsive frontend web application for client based on given design.</li>
+                <li>Bug Fixing, Site maintenance and enhancements to improve overall site performance.</li>
+                <li>Constantly modifying the web application based on client's feedback.</li>
+                <li>Maintaining and updating an existing website with customize CSS and JS code.</li>
+                <li>Modifying and styling an built website using silverstripe framweork.</li>
+                <li>Helping out other colleagues when necessary.</li>
+              </ul>
+              <p class="location"><i class="fas fa-map-marker-alt"></i>Napier, New Zealand | <i class="fas fa-link"></i><a href="https://www.webfox.co.nz/">www.webfox.co.nz</a></p>
+            </div>
+            <div class="col-md-4 sub-row placeholder"><img src=""></div>
+            <div class="col-md-8 sub-row">
+              <h3>Freelancer</h3>
+              <p>Web Developing Freelancer • July 2020-Present</p>
+              <ul>
+                <li>Having meeting with client to understand their needs.</li>
+                <li>Come up a mock up designing if nesscary.</li>
+                <li>Developing responsive websites either from scratch or using pointed framework.(Squarespace, Wix)</li>
+                <li>Styling a nearly finishing website with customize CSS and JS code.</li>
+                <li>Communicating with clients regularly, response to any required changes.</li>
+              </ul>
+              <p class="location"><i class="fas fa-map-marker-alt"></i> New Zealand | <i class="fas fa-link"></i><a href="index.html#scroll-projects" onclick="myFunction4()">Reference / Projects</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Abilities content -->
+    <div class="experience frame" id="scroll-abilities">
+      <!-- Dev Skills content -->
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-3  sub-row">
+            <h3>Dev Skills</h3>
+          </div>
+          <div class="col-md-9  sub-row">
+            <div class="row ">
+              <div class="col-md-6">   
+                <ul>
+                  <li>
+                    <span class="ability-title">HTML 5</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="ability-title">CSS 3</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                   </span>
+                  </li>
+                  <li>
+                    <span class="ability-title">Bootstrap Framework</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                  </li>
+                  <li>
+                    <span class="ability-title">Wordpress</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                  </li>
+                  <li>
+                    <span class="ability-title">Javascript</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                  </li>
+                  <li>
+                    <span class="ability-title">PHP</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star-half-alt"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                 </li>
+                 <li>
+                    <span class="ability-title">SQL</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star-half-alt"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                 </li>
+                 <li>
+                  <span class="ability-title">XML</span>
+                  <span class="ability-score">
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                 </span>
+               </li>
+             </ul>
+           </div>
+           <div class="col-md-6">
+            <ul>
+             <li>
+                <span class="ability-title">JSON</span>
+                <span class="ability-score">
+                  <span ><i class="fas fa-star fa-sm"></i></span>
+                  <span ><i class="fas fa-star fa-sm"></i></span>
+                  <span ><i class="fas fa-star fa-sm"></i></span>
+                  <span ><i class="far fa-star fa-sm"></i></span>
+                  <span ><i class="far fa-star fa-sm"></i></span>
+               </span>
+             </li>
+               <li>
+                  <span class="ability-title">SASS</span>
+                  <span class="ability-score">
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                 </span>
+               </li>
+               <li>
+                  <span class="ability-title">JQuery</span>
+                  <span class="ability-score">
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                 </span>
+               </li>
+               <li>
+                  <span class="ability-title">React</span>
+                  <span class="ability-score">
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                 </span>
+               </li>
+               <li>
+                  <span class="ability-title">Silverstripe</span>
+                  <span class="ability-score">
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                 </span>
+               </li>
+               <li>
+                  <span class="ability-title">Laravel Framework</span>
+                  <span class="ability-score">
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                 </span>
+               </li>
+                  <li>
+                  <span class="ability-title">JAVA</span>
+                  <span class="ability-score">
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                 </span>
+               </li>
+                  <li>
+                  <span class="ability-title">Python</span>
+                  <span class="ability-score">
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="fas fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                    <span ><i class="far fa-star fa-sm"></i></span>
+                 </span>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+     <hr>
+   </div>
+       <!-- Tools content -->
+       <div class="container">
+        <div class="row ">
+          <div class="col-md-3 sub-row">
+            <h3>Tools</h3>
+          </div>
+          <div class="col-md-9 sub-row">
+            <div class="row ">
+              <div class="col-md-6">   
+                <ul>
+                  <li>
+                    <span class="ability-title">Mac</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="ability-title">Windows</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                   </span>
+                  </li>
+                  <li>
+                    <span class="ability-title">Chrome</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                   </span>
+                  </li>
+                  <li>
+                    <span class="ability-title">MS Office</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                   </span>
+                  </li>
+                  <li>
+                    <span class="ability-title">Firefox</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                  </li>
+                  <li>
+                    <span class="ability-title">XAMP</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                 </li>
+               </ul>
+             </div>
+             <div class="col-md-6">
+              <ul>
+                 <li>
+                    <span class="ability-title">Atom</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                 </li>
+                   <li>
+                    <span class="ability-title">Sublime text</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                 </li>
+                   <li>
+                    <span class="ability-title">Visual Studio Code</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                 </li>
+                    <li>
+                    <span class="ability-title">Git</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                 </li>
+                     <li>
+                    <span class="ability-title">MAMP</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                 </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+      <hr>
+   </div>
+       <!-- Languages content -->
+       <div class="container">
+        <div class="row ">
+          <div class="col-md-3 sub-row">
+            <h3>Languages</h3>
+          </div>
+          <div class="col-md-9 sub-row">
+            <div class="row ">
+              <div class="col-md-6">   
+                <ul>
+                  <li>
+                    <span class="ability-title">Chinese (Monther tongue)</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="ability-title">English (Daily use)</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star-half-alt"></i></span>
+                   </span>
+                  </li>
+               </ul>
+             </div>
+             <div class="col-md-6">
+              <ul>
+                 <li>
+                    <span class="ability-title">Korean (Intermediate)</span>
+                    <span class="ability-score">
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star fa-sm"></i></span>
+                      <span ><i class="fas fa-star-half-alt"></i></span>
+                      <span ><i class="far fa-star fa-sm"></i></span>
+                   </span>
+                 </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="frame" id="scroll-projects">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 sub-row">
+        <h3>Projects</h3>
+      </div>
+      <div class="col-md-9 sub-row">
+        <div class="row ">
+          <div class="col-md-6  projects ">
+            <div> <img  class="image "src="images/babysafe.png" alt="babysafe"></div>
+            <div class="overlay">
+              <div class="left">
+                <h3>Babysafe NZ</h3>
+                <p> A learning tool designed to engage parents and caregivers with the key messages in baby safety.</p>
+                <p><strong>Tags:</strong> <br>Development, Bootstrap, HTML, CSS, JS</p>
+                <a href="http://babysafe.barney.testsite.kiwi.nz/" target="_blank">View more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 projects">
+            <div> <img  class="image"src="images/cge.png" alt="CGE Building"></div>
+            <div class="overlay">
+              <div class="left">
+                <h3>CGE Building</h3>
+                <p>CGE building specialists provides a wide range of house service</p>
+                <p><strong>Tags:</strong> <br>Development, wix, Customized HTML, CSS, JS.</p>
+                <a href="https://www.cgebuilding.co.nz/" target="_blank">View more</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row sec-row ">
+          <div class="col-md-6 projects">
+            <div> <img  class="image"src="images/alex verdiaz.png" alt="alex"></div>
+            <div class="overlay">
+              <div class="left">
+                <h3>Alex Verdiaz</h3>
+                <p>Career Change Coach helps women discover their next career with online program</p>
+                <p><strong>Tags:</strong> <br>Development, Squarespace, Customized HTML, CSS, JS.</p>
+                <a href="https://www.alexverdiaz.com/" target="_blank">View more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6  projects">
+            <div class="box"> <h3>More to come..</h3></div>
+          </div>
+        </div>
+    </div>
+  </div>
+<hr>
+   <div class="row testi" id="testi">
+      <div class="col-md-3 sub-row">
+        <h3>Testimonials</h3>
+      </div>
+      <div class="col-md-9 sub-row">
+        <div class="row flex-row-reverse">
+          <div class=" col-md-4"><img src="images/Alex-Verdiaz-Squarespace-Logo.png"></div>
+          <div class="col-md-8">
+            <p>"I had the great pleasure of working with An recently.  I thoroughly enjoyed his professionalism.  He was very approachable which made it great to ask questions and bounce around ideas as I am new to designing and building a website for my new online business.  It really was wonderful to deal with someone who knew it all and got everything done on time and to my standard. Really took away a lot of my stress which starting up your own business brings and doing your own website.  I look forward to working with you again in the future.Thank you once again." </p>
+            <p><span >Alex Verdiaz</span> / career coach </p>
+            <p class="location"><i class="fas fa-map-marker-alt"></i> Napier, New Zealand | <i class="fas fa-link"></i><a href="https://www.alexverdiaz.com/">Project Website</a></p>
+          </div>
+          <div class="col-md-4 sub-row"><img src="images/NP_Logo_NEW_2016.jpg"></div>
+          <div class="col-md-8 sub-row">
+           <p>"An is extremely talened, i recently has work done with him. I highly recommed him " </p>
+            <p><span >Marion McLean-Waaka</span> / CEO @ Napier Prison & Napier Walk </p>
+            <p class="location"><i class="fas fa-map-marker-alt"></i> Napier, New Zealand </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+ <footer id="footer">
+  <div class="container">
+    <p class="lead">“You can do anything you set your mind to.”<br>- Benjamin Franklin</p> 
+  </div>
+
+ </footer>
+
+<script src="https://kit.fontawesome.com/616d0cca49.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/like-dislike.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> 
+</body>
+</html>
